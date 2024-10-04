@@ -1,0 +1,7 @@
+{
+  "name": "p-integrador",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
