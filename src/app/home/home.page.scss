@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container {
   text-align: center;
 
@@ -25,3 +26,75 @@
 #container a {
   text-decoration: none;
 }
+=======
+.home-container {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9c712;
+}
+
+.back-button img {
+  width: 100px;
+  height: 24px;
+}
+
+.title {
+  color: #f9c712;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.main-image img {
+  width: 20%;
+  height: auto;
+  border: 3px solid #f9c712;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: gray;
+  font-weight: bold;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 2px solid #f9c712;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+>>>>>>> eca784c9036df33df9a6e5c084e96fdb0105e25e

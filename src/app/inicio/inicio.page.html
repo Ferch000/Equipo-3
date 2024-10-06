@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Carpintería Artesanal</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Banner -->
+  <ion-card>
+    <img src="" alt=""/>
+    <ion-card-header>
+      <ion-card-title>Bienvenido a Carpintería Artesanal</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Muebles hechos a mano con la mejor calidad y diseño personalizado.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Productos Destacados -->
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="">
+        <ion-card>
+          <img [src]="" alt="Producto"/>
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+           
+          </ion-card-content>
+          <ion-button expand="block" fill="outline">Ver detalles</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>© 2024 Carpintería Artesanal</ion-title>
+  </ion-toolbar>
+</ion-footer>
